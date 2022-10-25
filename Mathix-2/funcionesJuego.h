@@ -1,0 +1,20 @@
+#pragma once
+int main();
+void coordenada(int[6][6], char[10], int, int, char[18], int);
+void mmenu();
+void creditos();
+void partida();
+void mescla(char[10], char[18], int, int, int);
+void mathrix(int[6][6], char[10], int, int, char[18], int);
+int operaciones(int[6][6], char[10], int);
+int pilas(int, int, char[10], char[18], int, int, int, int, int);
+//void estadisticas();
+void puntuacion(char[10], int, int, char[18]);
+int direccion(int, int);
+int puntajes(int, int, int, int);
+void nuevaFuncion(int[6][6], int, int, int, int, int, int, int);
+void mathrixEstatica(int[6][6], char[10], int, int, char[18]);
+void contador1(int[6][6], int, int, int, int, int, int);
+void contador2(int[6][6], int, int, int, int, int, int);
+void logica(int[6][6], char[10], int, int, int, char[18], int);
+void tutorial(char[10], char[18], int, int, int);
